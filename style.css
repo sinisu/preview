@@ -1,0 +1,377 @@
+body{
+    background-color: #fafafa;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  h5 {
+    font-weight: 600;
+  }
+  
+  .navbar {
+    background-color: black !important;
+    color: white !important;
+  
+  }
+  nav a {
+    color: white !important;
+  }
+  
+  .navbar-nav{
+    align-items: flex-end;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    color: #CEFC86 !important;
+  }
+  
+  ul{
+    display: flex;
+  }
+  
+  .backgroundstyle {
+    background-color: #CEFC86;
+  }
+  
+  .main-first{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .getbutton {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    border-radius: 500px;
+  }
+  
+  .getbutton:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    scale: 1.05;
+    box-shadow: none;
+  }
+  
+  .getbutton:hover:focus{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .getbutton:hover:active{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .budgetbutton {
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    border-radius: 500px;
+    border: 1px solid black;
+  }
+  
+  .budgetbutton:hover {
+    border: 1px solid black;
+    scale: 1.05;
+  }
+  
+  .smalltextstyle {
+    font-size: 0.7rem;
+  }
+  
+  .img-main {
+   width: 26rem;
+   display: flex;
+  }
+  
+  .gray-bg-style {
+    background-color: #fafafa;
+  }
+  
+  .storebutton {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    border-radius: 500px;
+  }
+  
+  .storebutton:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .emoticon {
+    background-color: #CEFC86;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 500px;
+    font-size: 3rem;
+  }
+  
+  .white-bg-style {
+    background-color: white;
+  }
+  
+  .center {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.3rem;
+  }
+  
+  .boldweight {
+    font-weight: 600;
+  }
+  
+  .free {
+    background-color: #CEFC86;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .box1 {
+    height: 10rem;
+  }
+  
+  .box2 {
+    height: 15rem;
+  }
+  
+  .box3{
+    height: 2.5rem;
+  }
+  
+  .card{
+    border-color: #e0e0e0;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    padding: 2rem 2rem;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-button:hover {
+    text-decoration: underline;
+  }
+  
+  .collapsed {
+    font-weight: 600;
+    padding: 2rem 2rem;
+    
+  }
+  
+  .accordion-body {
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .padding-qna{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    margin-top: 0rem;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #CEFC86 !important;
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .border-bottom{
+    border-color: #696969;
+    margin-bottom: 1rem;
+  }
+  
+  .cop-style {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 0.9rem;
+  }
+  
+  .disapear {
+    display: none;
+  }
+  
+  
+   @media screen and (max-width: 48rem) {
+     
+     .row {
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
+       margin-left: 0rem;
+       margin-right: 0rem;
+     }
+  
+     h2 {
+       font-size: 2.15rem;
+     }
+  
+     h4 {
+       font-size: 1.1rem;
+     }
+  
+     h5 {
+       font-size: 1.1rem;
+     }
+  
+     .smalltextstyle{
+       font-size: 0.6rem;
+     }
+  
+     .main-first{
+       text-align: center;
+       display: block;
+       margin: 0rem;
+     }
+    
+     .img-main{
+       width: 18rem;
+       align-self: center;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 1.5rem;
+    }
+  
+     .getbutton{
+       width: 100%;
+       text-align: center;
+       margin-top: 0.5rem;
+     }
+  
+     .budgetbutton{
+       width: 100%;
+       text-align: center;
+       margin-top: 0.3rem;
+       margin-bottom: 0.5rem;
+     }
+  
+     .storebutton{
+       width: 10rem;
+     }
+  
+     .emoticon{
+       width: 4rem;
+       height: 4rem;
+       border-radius: 500px;
+       font-size: 2rem;
+     }
+  
+     .emoticon-sub{
+       font-size: 0.9rem;
+     }
+  
+     .card{
+       margin-top: 0rem;
+       margin-bottom: 0.5rem;
+     }
+  
+     .collapsed {
+       font-weight: 500;
+       padding: 1.2rem 1rem;
+     }
+  
+     .padding-qna{
+       padding-top: 0rem;
+       padding-bottom: 2rem;
+     }
+  
+     .footer-items {
+       display: flex;
+       justify-content: space-between;
+       padding-top: 0rem;
+       padding-bottom: 0rem;
+       font-size: 0.65rem;
+     }
+  
+     .cop-style {
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+       font-size: 0.7rem;
+     }
+  }
+  
+  @media screen and (max-width: 60rem){
+    .box1 {
+       height: auto;
+     }
+  
+     .box2 {
+       height: auto;
+     }
+  
+     .box3{
+       height: auto;
+     }
+  }
+  
+  @media screen and (max-width: 62rem) {
+    .gone{
+       display: none;
+     }
+  
+    .disapear{
+       display: flex;
+       text-align: center;
+     }
+  }
